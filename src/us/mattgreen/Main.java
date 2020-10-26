@@ -12,12 +12,9 @@ public class Main {
 
         // Lines to Replace Begin Here
 
-            zoo.add(new AskForAnimal());
+            AskForAnimal a = new AskForAnimal();
+            a.AddToList(a, zoo);
 
-
-        zoo.add(new Dog(true, "Bean"));
-        zoo.add(new Cat(9, "Charlie"));
-        zoo.add(new Teacher(44, "Stacy Read"));
         // End Lines to Replace
 
         for (Talkable thing : zoo) {
