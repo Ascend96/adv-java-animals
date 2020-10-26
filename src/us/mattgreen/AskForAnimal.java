@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AskForAnimal implements Talkable{
-    AskForAnimal a = new AskForAnimal();
+
     Scanner scanner = new Scanner(System.in);
 
 
